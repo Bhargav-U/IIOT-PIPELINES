@@ -8,8 +8,8 @@ import time
 
 bucket_name = "MODBUS"
 measurement_name = "Modbus_data"
-influx_url = "https://us-east-1-1.aws.cloud2.influxdata.com/api/v2/write?org=your_org_id&bucket=" + bucket_name
-token = "v6yyfWMqraoHsYdAp7CAngZUOheySCIlkqe0nfmsFHoqLM8B9TLaWBimOBZjrSxUzAi5pSH5xbtxGPagDxBqzA=="
+influx_url = "your influx url/api/v2/write?org=your_org_id&bucket=" + bucket_name
+token = "your api token"
 
 QUEUE_NAME = "MODBUS_DATA"
 
