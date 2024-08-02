@@ -8,8 +8,8 @@ import time
 
 bucket_name = "Profinet"
 measurement_name = "Profinet_data"
-influx_url = "https://us-east-1-1.aws.cloud2.influxdata.com/api/v2/write?org=bdeb9ddd4be33c75&bucket=" + bucket_name
-token = "zoFb5ykKtRGhxeWWMQxMeIGA-pq3e2pH_O_OvWPofcfF_aRmFVkqYx6jxW47WIP-TSNkPZKiQNIEprV3OGGyFQ=="
+influx_url = "your_influx_url/api/v2/write?org=bdeb9ddd4be33c75&bucket=" + bucket_name
+token = "Your_api_token"
 
 QUEUE_NAME = "PROFINET_DATA"
 
